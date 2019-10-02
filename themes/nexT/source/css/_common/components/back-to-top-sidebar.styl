@@ -1,0 +1,20 @@
+.back-to-top {
+  //visibility: hidden;
+  visibility: visible;
+  margin: (20px - $sidebar-offset) -10px -20px;
+  background: $b2t-sidebar-bg-color;
+  font-size: $b2t-font-size;
+  opacity: $b2t-opacity;
+  cursor: pointer;
+  text-align: center;
+  &:hover { opacity: $b2t-opacity-hover; }
+
+  +tablet-mobile() {
+    hide() if not hexo-config('sidebar.onmobile');
+  }
+
+  &.back-to-top-on {
+    visibility: visible;
+    the-transition();
+  }
+}
