@@ -2,6 +2,7 @@
 title: 搭建博客hexo使用next主题、备份hexo源文件的参考资料
 date: 2019-10-02 14:07:45
 tags:
+mathjax: true
 ---
 首先，搭建这个博客耗时不短。从2019-09-29 17:32:42开始看到[这篇博客](https://yxyuxuan.github.io/2019/07/16/GitHub-Hexo-Next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/)，打算自己搞一个的时候，到实现hexo源文件备份功能，2019-10-02 14:11:46，花了不少的时间。
 其次，还有一点细节上的问题，比如嵌入pdf这个功能，现在的嵌入效果还不好看，还有两个滚动条。
@@ -38,25 +39,21 @@ postbottom:
 示例一：
 
 ```latex
-$$\begin{equation}
+$$
 \begin{aligned}
 a &= b + c \\
   &= d + e + f + g \\
   &= h + i
 \end{aligned}
-\end{equation}\label{eq1}$$
+$$
 ```
 
-
-
 $$
-\begin{equation}
 \begin{aligned}
-a &= b + c \\
-  &= d + e + f + g \\
-  &= h + i
+  a &= b + c \\
+    &= d + e + f + g \\
+    &= h + i
 \end{aligned}
-\end{equation}\label{e1q}
 $$
 
 示例二：
