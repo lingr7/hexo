@@ -33,7 +33,6 @@
     "hexo-tag-cloud": "^2.1.1",
     "hexo-tag-color-block": "0.0.3",
     "hexo-tag-echarts": "^1.0.0",
-    "hexo-wordcount": "^6.0.1",
     "install": "^0.13.0",
     "live2d-widget-model-koharu": "^1.0.5",
     "shelljs": "^0.8.3"
