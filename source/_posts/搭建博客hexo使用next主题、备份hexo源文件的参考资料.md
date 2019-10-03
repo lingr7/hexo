@@ -35,7 +35,7 @@ postbottom:
       iconStyle: default
 ```
 
-补充2:测试一下公式性能
+补充2:测试一下公式性能，我使用mathjax渲染公式失败以后的解决方案：[hexo+next公式支持---采用Katex](http://lingr7.coding.me/2019/10/03/hexo+next%E5%85%AC%E5%BC%8F%E6%94%AF%E6%8C%81---%E9%87%87%E7%94%A8Katex.html#more)
 示例一：
 
 ```latex

@@ -1,4 +1,8 @@
-# 在另一台电脑上打开备份的hexo博客静态源文件
+---
+title: 在另一台电脑上打开备份的hexo博客静态源文件
+date: 
+tags:
+---
 前置知识
 >[搭建博客 hexo 使用 next 主题、备份 hexo 源文件的参考资料 | 离 | Lingr7](http://lingr7.coding.me/2019/10/02/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E3%80%81%E5%A4%87%E4%BB%BDhexo%E6%BA%90%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99.html)
 
