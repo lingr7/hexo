@@ -518,27 +518,30 @@ font:
 
 # Math Equations Render Support
 math:
-  enable: false
+  enable: true
 
   # Default (true) will load mathjax / katex script on demand.
   # That is it only render those page which has `mathjax: true` in Front-matter.
   # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
-  per_page: true
+  per_page: true 
 
-  engine: mathjax
-  #engine: katex
+  #engine: mathjax
+  engine: katex
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) needed to full MathJax support.
   mathjax:
-    cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    enable: ture
+    #cdn: //cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+    cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/latest/MathJax.js   # 每次都自动加载最新版本的 Mathjax
     #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
-
+    #cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js   # 指定使用 2.7.5 版本的 Mathjax
     # See: https://mhchem.github.io/MathJax-mhchem/
     #mhchem: //cdn.jsdelivr.net/npm/mathjax-mhchem@3
     #mhchem: //cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0
 
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) needed to full Katex support.
   katex:
+    enable: true
     cdn: //cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
     #cdn: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
 
@@ -927,7 +930,8 @@ tabs:
 pdf:
   enable: true
   # Default height
-  height: 500px
+  #height: 500px
+  height:  1000px
   pdfobject:
     # Use 2.1.1 as default, jsdelivr as default CDN, works everywhere even in China
     cdn: //cdn.jsdelivr.net/npm/pdfobject@2.1.1/pdfobject.min.js
