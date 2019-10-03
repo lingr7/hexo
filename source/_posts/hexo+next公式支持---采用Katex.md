@@ -1,4 +1,9 @@
-# hexo+next公式支持---采用Katex 
+---
+title: hexo+next公式支持---采用Katex 
+date: 
+tags:
+mathjax: true
+---
 
 网上使用的种种教程，都是使用mathjax实现的，但是我按部就班的操作，就是无效。
 
