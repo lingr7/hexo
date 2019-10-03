@@ -26,6 +26,10 @@ function run() {
             echo('Error: Git push failed');
             exit(1);
         }
+		if (exec('git push ori-github master').code !== 0) {
+            echo('Error: Git push failed');
+            exit(1);
+        }
         echo("==================Auto Backup Complete============================")
     }
 }
