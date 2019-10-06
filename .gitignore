@@ -3,6 +3,6 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-scripts/
+scripts/auto_back.js
 public/
 .deploy*/
