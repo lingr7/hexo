@@ -91,8 +91,8 @@ deploy:
   #repository: https://github.com/wugenqiang/wugenqiang.github.io.git #复制过来
   #branch: master
   repo:
-    github: https://github.com/lingr7/lingr7.github.io.git,master
-    coding: https://dev.tencent.com/u/lingr7/p/lingr7.coding.me.git,master
+    github: git@github.com:lingr7/lingr7.github.io.git,master
+    coding: git@git.dev.tencent.com:lingr7/lingr7.coding.me.git,master
 search:
   path: search.xml
   field: post
