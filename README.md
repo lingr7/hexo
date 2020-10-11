@@ -12,3 +12,7 @@ docker run -itd --name 容器名 --dns=8.8.8.8 --net 本地自建网络名 -p 80
 docker exec -it 容器名 sh
 hexo server
 ```
+后续也可以考虑部署配置。
+```bash
+hexo deploy
+```
